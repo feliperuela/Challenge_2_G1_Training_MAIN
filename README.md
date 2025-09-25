@@ -96,5 +96,5 @@ Before setting up the Unity project, please obtain the following external packag
 Beyond the current implementation, I have conceptualized an advanced hardware-inspired solution to dramatically improve the robot's stability: a [**Gyroscopic Stabilizer Backpack (Control Moment Gyroscope - CMG)**](https://www.youtube.com/watch?v=cquvA_IpEsA).
 
 * **Concept:** A fast-spinning flywheel mounted on a gimbaled frame inside a backpack module. By precisely tilting the flywheel's spin axis, we can induce gyroscopic precession, generating powerful and near-instantaneous corrective torques on the robot's torso.
-* **Advantages:** This approach, common in aerospace applications like, could offer faster reaction times and higher energy efficiency for maintaining balance compared to relying solely on leg motor actuators.
+* **Advantages:** This approach, common in aerospace applications, could offer faster reaction times and higher energy efficiency for maintaining balance compared to relying solely on leg motor actuators.
 * **Next Steps:** A future research direction would be to model this system in simulation, design the necessary control algorithms to avoid singularities, and integrate it into the agent's observation and action space. This represents a promising path towards achieving human-level agility and disturbance rejection.
