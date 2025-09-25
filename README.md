@@ -6,6 +6,8 @@ This repository contains my solution for **Challenge 2: Reinforcement Learning w
 
 This project documents the development of a policy for a Unitree G1 humanoid to achieve and maintain stable static balance in a simulated Unity environment using Reinforcement Learning.
 
+> **Note:** A full project `.zip` file, including the Unity `Library` folder for faster import, is available in the [Releases section](https://github.com/feliperuela/Challenge_2_G1_Training_MAIN/releases).
+
 ---
 
 ## 1. Core Technical Strategy & Design Choices
@@ -43,7 +45,7 @@ This guide provides all necessary steps to set up the environment from scratch a
 ### A. Prerequisites
 
 * **Unity Hub**
-* **Unity Editor:** Version **2021.3.45f1 (LTS)** is required for physics stability with the URDF importer.
+* **Unity Editor:** Version **[2021.3.45f1 (LTS)](https://unity.com/pt/releases/editor/whats-new/2021.3.45f1#installs)** is required. Using this specific version was crucial for physics stability with the URDF importer.
 * **Python:** Version **3.10.11** was used.
 * **ML-Agents:** This project uses `com.unity.ml-agents` (Version 2.0.1).
 
@@ -52,7 +54,7 @@ This guide provides all necessary steps to set up the environment from scratch a
 Before setting up the Unity project, please obtain the following external packages:
 
 1.  **URDF-Importer for Unity:**
-    * Download the official release from the Unity Technologies GitHub repository.
+    * Download the official release from the Unity Technologies GitHub repository or release file.
     * **Link:** `https://github.com/Unity-Technologies/URDF-Importer/releases`
 
 2.  **Unitree ROS Description Files:**
