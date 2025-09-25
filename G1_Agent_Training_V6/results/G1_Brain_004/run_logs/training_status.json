@@ -1,0 +1,65 @@
+{
+    "G1_Balance": {
+        "checkpoints": [
+            {
+                "steps": 1000435,
+                "file_path": "results\\G1_Brain_004\\G1_Balance\\G1_Balance-1000435.onnx",
+                "reward": -12.419999122619629,
+                "creation_time": 1758647728.1549532,
+                "auxillary_file_paths": [
+                    "results\\G1_Brain_004\\G1_Balance\\G1_Balance-1000435.pt"
+                ]
+            },
+            {
+                "steps": 1005040,
+                "file_path": "results\\G1_Brain_004\\G1_Balance\\G1_Balance-1005040.onnx",
+                "reward": -10.942500114440918,
+                "creation_time": 1758650106.2847674,
+                "auxillary_file_paths": [
+                    "results\\G1_Brain_004\\G1_Balance\\G1_Balance-1005040.pt"
+                ]
+            },
+            {
+                "steps": 1007763,
+                "file_path": "results\\G1_Brain_004\\G1_Balance\\G1_Balance-1007763.onnx",
+                "reward": -11.760001455034528,
+                "creation_time": 1758650994.1766686,
+                "auxillary_file_paths": [
+                    "results\\G1_Brain_004\\G1_Balance\\G1_Balance-1007763.pt"
+                ]
+            },
+            {
+                "steps": 1009094,
+                "file_path": "results\\G1_Brain_004\\G1_Balance\\G1_Balance-1009094.onnx",
+                "reward": -14.950000762939453,
+                "creation_time": 1758651975.0565095,
+                "auxillary_file_paths": [
+                    "results\\G1_Brain_004\\G1_Balance\\G1_Balance-1009094.pt"
+                ]
+            },
+            {
+                "steps": 1010430,
+                "file_path": "results\\G1_Brain_004\\G1_Balance\\G1_Balance-1010430.onnx",
+                "reward": -9.937500476837158,
+                "creation_time": 1758651995.7461336,
+                "auxillary_file_paths": [
+                    "results\\G1_Brain_004\\G1_Balance\\G1_Balance-1010430.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1010430,
+            "file_path": "results\\G1_Brain_004\\G1_Balance.onnx",
+            "reward": -9.937500476837158,
+            "creation_time": 1758651995.7461336,
+            "auxillary_file_paths": [
+                "results\\G1_Brain_004\\G1_Balance\\G1_Balance-1010430.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.8.0+cpu"
+    }
+}
