@@ -88,3 +88,13 @@ Before setting up the Unity project, please obtain the following external packag
 * **Insight:** The automated curriculum was the single most critical factor for success. Initial attempts to train the agent in a full-gravity environment (`-9.81 m/s²`) consistently failed, as the agent could not survive long enough to acquire a useful policy. Simplifying the initial task was essential for bootstrapping the learning process.
 * **Limitation:** The current policy is specialized for static balance on a flat, stationary surface. It has not been trained for locomotion or to handle external perturbations.
 * **Next Steps:** The logical next phase is to build upon this stable balancing policy to teach locomotion. This will involve evolving the reward function to incentivize forward velocity and expanding the curriculum to include more challenging scenarios with full gravity.
+
+---
+
+## 5. Future Work & Advanced Concepts
+
+Beyond the current implementation, I have conceptualized an advanced hardware-inspired solution to dramatically improve the robot's stability: a **Gyroscopic Stabilizer Backpack (Control Moment Gyroscope - CMG)** Watch video (https://www.youtube.com/watch?v=cquvA_IpEsA).
+
+* **Concept:** A fast-spinning flywheel mounted on a gimbaled frame inside a backpack module. By precisely tilting the flywheel's spin axis, we can induce gyroscopic precession, generating powerful and near-instantaneous corrective torques on the robot's torso.
+* **Advantages:** This approach, common in aerospace applications like, could offer faster reaction times and higher energy efficiency for maintaining balance compared to relying solely on leg motor actuators.
+* **Next Steps:** A future research direction would be to model this system in simulation, design the necessary control algorithms to avoid singularities, and integrate it into the agent's observation and action space. This represents a promising path towards achieving human-level agility and disturbance rejection.
