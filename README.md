@@ -35,7 +35,6 @@ The agent was successfully trained, mastering the static balance task. The final
 ### Performance Metrics (Learning Curve)
 
 The training progress was logged using TensorBoard. The cumulative reward curve demonstrates a successful learning progression, moving from initial failure to a stable, high-performance policy.
-
 ---
 
 ## 3. Step-by-Step Reproduction Guide
