@@ -26,7 +26,7 @@ The agent was successfully trained, mastering the static balance task. The final
 
 ### Trained Agent in Action
 
-[![G1 Humanoid Static Balance Demonstration](1_Movie/demonstration.jpg)](URL_DO_SEU_VIDEO_NO_YOUTUBE)
+[![G1 Humanoid Static Balance Demonstration](1_Movie/demonstration.jpg)](https://youtu.be/ccoovZJOb4Y)
 
 *(Click the image above to watch the live demonstration of the trained agent)*
 
